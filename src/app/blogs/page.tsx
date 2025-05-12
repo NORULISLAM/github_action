@@ -5,7 +5,7 @@ import { useGetBlogsQuery } from "@/redux/api/baseApi";
 import { Blog } from "@/types";
 
 const BlogsPage = () => {
-  // const res = await fetch("http://localhost:5000/blogs", {
+  // const res = await fetch("http://localhost:5001/blogs", {
   //   cache: "no-store",
   // });
   // const blogs = await res.json();
