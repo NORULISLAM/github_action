@@ -1,7 +1,9 @@
 import { Blog } from "@/types";
-import LatestBlogCard from "../ui/LatestBlogCard";
 import BlogCard from "../ui/BlogCard";
-
+import LatestBlogCard from "../ui/LatestBlogCard";
+export function sum(a: number, b: number) {
+  return a + b;
+}
 const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
   return (
     <div className="w-[90%] mx-auto">
